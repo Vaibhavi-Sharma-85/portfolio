@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhavi - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Vaibhavi</h1>
+                <p class="hero-subtitle">Software Engineer</p>
+                <p class="hero-description">
+                    Computer Engineer specializing in software development, modern web technologies, and innovative digital solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/vaibhu.jpeg" alt="Professional headshot" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                       I'm a Computer Engineer with a Bachelor's degree in Information Technology and a Master's degree in Computer Engineering. Passionate about software development, modern technologies, and continuous learning, I enjoy building efficient, scalable, and user-focused applications that solve real-world problems through innovation and technology.
+                    </p>
+                    <p class="about-description">
+                        With a passion for innovation and continuous improvement, I enjoy solving complex technical challenges by developing efficient, scalable, and user-focused software solutions. I am committed to lifelong learning and continuously exploring emerging technologies to enhance my technical expertise and contribute to meaningful projects.
+                    </p>
+                    <a href="assets/resume.jpeg" download="Vaibhu_Resume.jpeg" class="resume-link">
+                        <span>Download Resume</span>
+
+                        <svg width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+                        <path d="M7 10l5 5 5-5"/>
+                        <path d="M12 15V3"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="skills">
+                    <h3 class="skills-title">Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="86"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/pro1.jpeg" alt="h2o-wastage-prediction-analytics">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/vaibhavi-sharma-85/h2o-wastage-prediction-analytics" 
+                                class="project-link">Live Demo</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">H2O Wastage Prediction with Analytics</h3>
+                        <p class="project-description">
+                            Developed a web application to monitor and analyze water wastage. Built a responsive dashboard using HTML, CSS, and JavaScript for data visualization. Implemented an admin panel to manage records and view analytics. Focused on a clean, user-friendly interface and practical usability.
+
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/pro2.jpeg" alt="Centralized-judiciary-system">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/vaibhavi-sharma-85/Centralized-judiciary-system"
+                                class="project-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Centralized Judiciary System</h3>
+                        <p class="project-description">
+                            Developed a web-based judiciary management system for handling case records and user roles. Built the frontend using JSP, HTML, CSS, and Bootstrap with a responsive interface. Created admin and user dashboards with form-based data management. Focused on usability, structured design, and backend integration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JSP</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">MVC Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/pro3.jpeg" alt="LPDS">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">License Plate Detection System</h3>
+                        <p class="project-description">
+                            Developed a license plate detection system using Python and OpenCV with classical image processing techniques. Applied grayscale conversion, edge detection, filtering, and morphological operations to detect vehicle license plates. Focused on algorithm implementation, visualization, and image processing fundamentals.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Image processing</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/pro4.jpeg" alt="Energy-Aware">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Energy-Aware Task Scheduling using DVFS</h3>
+                        <p class="project-description">
+                            Developed a simulation-based project to analyze energy consumption in real-time systems using Dynamic Voltage and Frequency Scaling (DVFS). Implemented task scheduling logic in C to optimize CPU frequency and energy usage. Evaluated system performance based on energy efficiency and deadline satisfaction.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">DVFS</span>
+                            <span class="tech-tag">CPU Scheduling</span>
+                            <span class="tech-tag">simulation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/pro5.jpeg" alt="4-bit calc">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">4-bit Arithmetic Calculator on FPGA</h3>
+                        <p class="project-description">
+                            Developed a 4-bit arithmetic calculator using VHDL on FPGA to perform addition, subtraction, and multiplication. Simulated the design in ModelSim and synthesized it using Quartus Prime. Displayed outputs on seven-segment displays, demonstrating digital design and hardware implementation skills.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">VHDL</span>
+                            <span class="tech-tag">FPGA</span>
+                            <span class="tech-tag">ModelSim</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                    <div class="sticker-image">
+                        <img src="assets/sticker.png" alt="sticker">
+                    </div>
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's work together</h3>
+                    <p class="contact-description">
+                        I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>vaibhavi.sharma260@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <span>+1 (709)7636909</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>St. John's,NL,Canada</span>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vaibhavi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/vbsharma85" class="social-link">LinkedIn</a>
+                <a href="https://github.com/vaibhavi-sharma-85" class="social-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
